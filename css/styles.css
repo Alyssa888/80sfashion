@@ -1,0 +1,81 @@
+
+body {
+
+  background: #FFCCE1;
+  font-family: 'Arial', sans-serif;
+  color: grey
+}
+
+h1 {
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: deeppink
+}
+
+a {
+  margin-right: 5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  font-size: 1.5em;
+  font-family: 'Lucida Grande', sans-serif;
+  
+}
+
+.jacket {
+float: right;
+}
+
+.home {
+display: flex;
+justify-content: center;
+
+}
+
+.bodywarmer {
+ float: right;
+}
+
+.baseball {
+ float:right; 
+
+}
+
+.wind {
+float:right;
+
+}
+
+.paper {
+display: flex;
+justify-content: center;
+
+}
+
+
+
+header {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.levi {
+text-align: left;
+}
+
+
+
+.paperbag {
+text-align: left;  
+}
+
+
+
