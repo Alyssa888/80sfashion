@@ -5,12 +5,19 @@ body {
   color: grey
 }
 
+body {
+  text-align: left;
+  /* Bron: GeeksforGeeks https://www.geeksforgeeks.org/how-to-wrap-the-text-around-an-image-using-html-and-css/*/
+}
+
+
 nav {
   display: flex;
   justify-content: center;
   background-color: rgb(225, 114, 166);
   font-size: 1.5em;
   font-family: 'Lucida Grande', sans-serif;
+
 
 
 }
@@ -31,6 +38,7 @@ a {
   padding: 0.5em;
   background-color: white;
   border-radius: 0.2em;
+  transition: color 250ms ease;
 
 
 }
@@ -45,23 +53,45 @@ a:hover {
   display: flex;
   flex-direction: row;
   width: 70%;
-  margin: 0 auto;
+  margin: 1.5em auto;
   background-color: rgb(225, 114, 166);
   padding: 20px;
   color: white;
+
 }
 
 .container div {
   width: 50%;
 }
 
+
+
 img {
   width: 50%;
   margin: 0 1em 0 0;
+  float: left;
+  /* Bron: GeeksforGeeks https://www.geeksforgeeks.org/how-to-wrap-the-text-around-an-image-using-html-and-css/*/
 }
 
 .home {
   display: flex;
   justify-content: center;
 
+}
+
+p {
+  padding-right: 1.5em;
+  text-align: justify;
+  /* Bron: GeeksforGeeks https://www.geeksforgeeks.org/how-to-wrap-the-text-around-an-image-using-html-and-css/*/
+}
+
+main {
+  margin-top: 1.5em;
+
+
+}
+
+footer {
+  padding-top: 1.5em;
+  text-align: center;
 }
